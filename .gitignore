@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+.local/
+.env
+
+# Docker
+*.log
+*.pid
+*.sock
+*.db
+.env
+.idea/
+
+# MacOS
+.DS_Store
+
+# VS Code
+.vscode/

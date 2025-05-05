@@ -1,0 +1,11 @@
+services:
+  dev-env:
+    build: .
+    container_name: dev-env-container
+    ports:
+      - "8888:8888"
+    volumes:
+      - ${PWD}:/home/devuser
+    working_dir: /home/devuser/docker_dev_environment
+    tty: true
+    stdin_open: true
